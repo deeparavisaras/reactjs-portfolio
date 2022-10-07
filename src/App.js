@@ -8,10 +8,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route>
-          <Route path="/" element={<Profile />} />
-          <Route path="skill" element={<Skill />} />
-          <Route path="project" element={<Project />} />
-          <Route path="*" element={<div>Sorry!</div>} />
+          <Route path="reactjs-portfolio/" element={<Profile />} />
+          <Route path="reactjs-portfolio/skill" element={<Skill />} />
+          <Route path="reactjs-portfolio/project" element={<Project />} />
+          <Route path="reactjs-portfolio/*" element={<div>Sorry!</div>} />
         </Route>
       </Routes>
     </BrowserRouter>
