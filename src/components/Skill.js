@@ -10,31 +10,31 @@ function Skill() {
       name: "TypeWriting",
       pic: typewriter,
       img_class: "",
-      desc: "description",
+      desc: "Certified as Typewriter in Tamil and English",
     },
     {
       name: "Java",
       pic: java,
       img_class: "h-32 m-auto",
-      desc: "description",
+      desc: "Practising and Learning for past 2 years",
     },
     {
       name: "Web Development",
       pic: web,
       img_class: "",
-      desc: "description",
+      desc: "Learning and Developing",
     },
   ];
   return (
     <div>
       <Navbar />
       <section className="p-10 ">
-        <p className="p-10 text-center text-3xl text-cyan-900">
+        <p className="p-10 text-center text-3xl text-cyan-900 sm:gap-10  ">
           My Skills includes
         </p>
-        <div className="flex justify-center sm:block ">
+        <div className="flex justify-center  sm:block ">
           {skill_set.map((items, index) => (
-            <div className="h-80 w-60 shadow-xl rounded-lg p-5 flex flex-col items-center overflow-hidden sm:m-auto">
+            <div className="h-80 w-60 shadow-xl rounded-lg p-5 flex flex-col items-center overflow-hidden sm:m-auto ">
               <div className="h-40 w-40">
                 <img
                   src={items.pic}
